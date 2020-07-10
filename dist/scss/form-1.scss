@@ -1,0 +1,135 @@
+.brecum {
+    margin: 25px 0;
+    p {
+        margin-bottom: 0;
+        font-size: $size-14;
+        color: #878787;
+        margin: 0 5px;
+    }
+    a {
+        color: #3d3d3d;
+        font-size: $size-14;
+        display: block;
+        margin: 0 5px;
+    }
+    .brecum-widget {
+        i.fa-home {
+            font-size: 1.3rem;
+            color: #c2c2c2;
+        }
+    }
+
+}
+.form-info {
+    padding-bottom: 40px;
+
+    .form {
+        .form-submit {
+            padding: 30px 40px;
+            box-shadow: 0px 0px 6px #bfbfbf;
+            h5 {
+                font-size: $size-24;
+                color: #292636;
+                padding-bottom: 20px;
+            }
+            .form-control {
+                border: none;
+                height: 40px;
+                border-bottom: 1px solid #ebebeb;
+                font-size: $size-16;
+                ::placeholder {
+                    font-size: $size-16;
+                    color: #4c485f;
+                    opacity: .5;
+                }
+                &:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+        span.red {
+            display: block;
+            padding-left: 10px;
+            color: #FF0019;
+            padding-top: 10px;
+        }
+    }
+    .public-information {
+        padding: 40px 0;
+        h3 {
+            font-size: $size-24;
+            color: #292636;
+            padding-bottom: 30px;
+            @media screen and (max-width: $break-mobile) {
+                font-size: 14px;
+            }
+        }
+        .info_element {
+            margin-bottom: 15px;
+            i {
+                font-size: $size-16;
+                margin-right: 10px;
+                color: #f63232;
+            }
+            p {
+                margin-bottom: 0;
+                font-size: $size-16;
+                color: #222626;
+                span {
+                    opacity: .5;
+                }
+            }
+        }
+    }
+    .image {
+        @media screen and (min-width: 1440px) {
+            height: 310px;
+        }
+    }
+}
+h3.title-content {
+    font-size: $size-14;
+    font-family: "Open Sans SemiBold", sans-serif;
+    background: #007dac;
+    padding: 10px;
+    color: $color-white;
+}
+button.search {
+    font-size: $size-16;
+    color: $color-white;
+    background: #007dac;
+    padding: 8px 65px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.info-result {
+    @media screen and (max-width: 767px) {
+        margin-top: 20px;
+    }
+    h3 {
+        font-size: $size-24;
+        color: #292636;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    tr {
+        margin-bottom: 10px;
+    }
+    td {
+        padding: 9px 0;
+        font-size: $size-16;
+        color: #222626;
+        i {
+            color: #f63232;
+            font-size: $size-16;
+            width: 25px;
+            text-align: center;
+        }
+        span {
+            color: #b2b8b8;
+            font-size: $size-16;
+        }
+    }
+
+}
