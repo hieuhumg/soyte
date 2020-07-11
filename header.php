@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="dist/slick-1.6.0/slick/slick-theme.css">
     <link rel="stylesheet" href="dist/WOW-master/css/libs/animate.css">
     <link rel="stylesheet" href="dist/box/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
 <!--    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">-->
     <link rel="stylesheet" href="dist/scss/main.css">
 </head>

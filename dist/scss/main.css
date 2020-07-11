@@ -55,7 +55,8 @@ p {
   line-height: 1.5; }
 
 a, p, h1, h2, h3, h4 {
-  line-height: 1.5; }
+  line-height: 1.5;
+  margin-bottom: 0; }
 
 a:hover {
   text-decoration: none; }
@@ -365,6 +366,9 @@ p.des {
   margin-left: -10px;
   margin-right: -10px; }
 
+.banner-right {
+  margin: 15px 0; }
+
 .hot-new {
   padding: 10px 0;
   box-shadow: 0px 0px 3px #c2bbbb; }
@@ -664,7 +668,7 @@ p.des {
     .new .main-new .title p.des {
       font-size: 1rem;
       color: #393939;
-      font-family: OpenSans-Regular,sans-serif;
+      font-family: OpenSans-Regular, sans-serif;
       padding-top: 10px; }
     .new .main-new .title span.date {
       display: block;
@@ -755,11 +759,12 @@ p.des {
         font-family: Merriweather-Regular, sans-serif; }
       .latest-news ul li img {
         margin-left: 10px; }
-  .latest-news a.more {
-    font-size: 0.87rem;
-    color: #acacac;
-    display: block;
-    margin: 15px 0; }
+
+a.more {
+  font-size: 0.87rem;
+  color: #acacac;
+  display: block;
+  margin: 15px 0; }
 
 .icon-new {
   margin-top: 5px; }
@@ -780,6 +785,33 @@ h3.title-content {
 .search-info {
   padding-top: 20px;
   border-top: 1px solid #ebebeb; }
+
+.new-word {
+  padding: 15px 0;
+  border: 1px solid #ebebeb; }
+  .new-word .widget {
+    padding: 0 20px; }
+    .new-word .widget .item {
+      padding-bottom: 15px; }
+      .new-word .widget .item i {
+        font-size: 1.428rem;
+        color: #ebebeb;
+        margin-right: 10px;
+        margin-top: 5px; }
+      .new-word .widget .item a {
+        font-size: 1rem;
+        color: #484848;
+        font-family: Merriweather-Regular, sans-serif; }
+  .new-word a.more {
+    margin: 0;
+    padding-right: 20px;
+    text-align: right; }
+
+.title-gray {
+  background: #d0d0d0 !important;
+  color: #000000 !important; }
+  .title-gray:after {
+    border-top: 20px solid #d0d0d0 !important; }
 
 .stellarnav a {
   color: #777; }
@@ -1361,7 +1393,7 @@ body.stellarnav-noscroll-x {
     margin-bottom: 0; }
 
 .brecum {
-  padding: 25px 0; }
+  padding: 15px 0; }
   .brecum p {
     margin-bottom: 0;
     font-size: 1rem;
@@ -1514,6 +1546,18 @@ button.search {
   margin-top: 40px;
   border-radius: 3px; }
 
+.video-concern {
+  border: 1px solid #ebebeb; }
+
+.video-concern-home {
+  background: #f7f7f7; }
+  .video-concern-home .box-video {
+    padding-top: 15px;
+    background: #f7f7f7;
+    border: none; }
+    .video-concern-home .box-video h5 {
+      background: #0096ce; }
+
 .box-video {
   background: #fff;
   padding: 25px; }
@@ -1523,10 +1567,10 @@ button.search {
     color: #fff;
     text-transform: uppercase;
     background: #007dac;
-    padding: 6px;
+    padding: 7px;
     display: inline-block; }
   .box-video .widget .sub-item {
-    padding: 15px 0;
+    padding: 12px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1542,10 +1586,13 @@ button.search {
       color: #222222;
       font-family: Merriweather-Regular, sans-serif;
       line-height: 1.5; }
+  .box-video .widget .sub-item.active a {
+    font-family: Merriweather-Bold, sans-serif; }
 
 .gallery1 {
   position: relative;
-  margin: 5px 0px; }
+  overflow: hidden;
+  height: 210px; }
   .gallery1:hover .hoverimg img {
     transform: scale(1.1); }
   .gallery1:hover .text-gallery {
@@ -1561,15 +1608,10 @@ button.search {
     transition: all .5s;
     transform: rotate(360deg); }
   .gallery1 .hoverimg {
-    overflow: hidden;
-    display: block; }
+    overflow: hidden; }
     .gallery1 .hoverimg img {
       transition: all .5s;
-      object-fit: cover;
-      height: 152px; }
-      @media (min-width: 1700px) {
-        .gallery1 .hoverimg img {
-          height: 190px; } }
+      object-fit: cover; }
     .gallery1 .hoverimg span {
       position: absolute;
       left: 20px;
@@ -1634,8 +1676,9 @@ button.search {
     padding-bottom: 10px; }
 
 .video {
-  padding: 30px 0;
-  background: #fcfaf6; }
+  padding-top: 10px;
+  padding-bottom: 40px;
+  background: #ffffff; }
   .video h3.title {
     font-size: 1rem;
     font-family: "Open Sans SemiBold", sans-serif;
@@ -1649,6 +1692,16 @@ button.search {
     color: #222222;
     font-family: Merriweather-Bold, sans-serif;
     padding: 10px 0; }
+  .video .video-widget .main-video {
+    height: 450px;
+    overflow: hidden; }
+  .video .video-widget .subcribe p {
+    font-size: 0.87rem;
+    color: #acacac;
+    font-family: Arial, sans-serif; }
+    .video .video-widget .subcribe p i {
+      margin-right: 5px;
+      font-size: 1.142rem; }
   .video .sub-video .sub-item {
     padding: 16px 0;
     display: -webkit-box;

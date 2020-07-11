@@ -55,7 +55,8 @@ p {
   line-height: 1.5; }
 
 a, p, h1, h2, h3, h4 {
-  line-height: 1.5; }
+  line-height: 1.5;
+  margin-bottom: 0; }
 
 a:hover {
   text-decoration: none; }
@@ -364,5 +365,8 @@ p.des {
 .m-10 {
   margin-left: -10px;
   margin-right: -10px; }
+
+.banner-right {
+  margin: 15px 0; }
 
 /*# sourceMappingURL=common.css.map */

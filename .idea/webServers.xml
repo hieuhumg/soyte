@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="80b961fc-d1ef-4aaa-9094-8ee396a4cd10" name="sfhesjfhe" url="http://soytehanoi.tracuu.wecan-group.info">
+        <fileTransfer host="soytehanoi.tracuu.wecan-group.info" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

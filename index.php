@@ -24,7 +24,7 @@ include_once 'header.php';
 
 <div class="banner-ads">
     <div class="container">
-        <img src="dist/images/banner-ads.jpg" alt="">
+        <img class="w-100" src="dist/images/banner-ads.jpg" alt="">
     </div>
 </div>
 
@@ -127,7 +127,7 @@ include_once 'header.php';
 </div>
 <div class="banner-ads">
     <div class="container">
-        <img src="dist/images/banner-ads.jpg" alt="">
+        <img class="w-100" src="dist/images/banner-ads.jpg" alt="">
     </div>
 </div>
 <div class="action-new">
@@ -471,7 +471,127 @@ include_once 'header.php';
                 </div>
             </div>
             <div class="col-md-4">
-
+                <div class="video-concern video-concern-home">
+                    <div class="gallery1">
+                        <a class="hoverimg" href="#">
+                            <img class="img-cover" src="dist/images/new-1.jpg" alt="">
+                        </a>
+                        <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                            <img src="dist/images/play-video.png" alt="">
+                        </a>
+                    </div>
+                    <div class="box-video">
+                        <h5 class="text-uppercase">Sản phẩm truyền hình</h5>
+                        <div class="widget">
+                            <div class="sub-item active">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                                <a href="">Hà Nội đẩy mạnh tuyên truyền về phòng chống dịch bệnh do nCoV</a>
+                            </div>
+                            <div class="sub-item">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                                <a href="">Ngành y tế chủ động phân loại và cách ly tại cơ sở y tế</a>
+                            </div>
+                            <div class="sub-item">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                                <a href="">Người dân phố Trúc Bạch đã trở về cuộc sống thường ngày</a>
+                            </div>
+                            <div class="sub-item">
+                                <i class="fa fa-video-camera" aria-hidden="true"></i>
+                                <a href="">Sẵn sàng thu dung, điều trị bệnh nhân mắc Covid 19</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-right">
+                    <a href="">
+                        <img class="" src="dist/images/banner-right.jpg" alt="">
+                    </a>
+                </div>
+                <div class="new-word">
+                    <h3 class="title-content text-uppercase">văn bản mới</h3>
+                    <div class="widget">
+                        <div class="item d-flex">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành lưu trữ</a>
+                        </div>
+                        <div class="item d-flex">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a href="">Thông tư quy định chức danh, mã số ngạch và tiêu chuẩn nghiệp vụ chuyên môn các ngạch công chức chuyên ngành văn thư</a>
+                        </div>
+                        <div class="item d-flex">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a href="">Thông tư quy định chức danh, mã số ngạch, chức trách, nhiệm vụ và tiêu chuẩn nghiệp vụ chuyên môn các ngạch công chức chuyên ngành hành chính</a>
+                        </div>
+                        <div class="item d-flex">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành lưu trữ</a>
+                        </div>
+                    </div>
+                    <a href="" class="more">
+                        xem tất cả
+                    </a>
+                </div>
+                <div class="new-word software mt-3">
+                    <h3 class="title-content title-gray text-uppercase">Phần mềm tác nghiệp</h3>
+                    <div class="widget">
+                        <div class="item d-flex">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành lưu trữ</a>
+                        </div>
+                        <div class="item d-flex">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a href="">Thông tư quy định chức danh, mã số ngạch và tiêu chuẩn nghiệp vụ chuyên môn các ngạch công chức chuyên ngành văn thư</a>
+                        </div>
+                        <div class="item d-flex">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a href="">Thông tư quy định chức danh, mã số ngạch, chức trách, nhiệm vụ và tiêu chuẩn nghiệp vụ chuyên môn các ngạch công chức chuyên ngành hành chính</a>
+                        </div>
+                        <div class="item d-flex">
+                            <i class="fa fa-file-text" aria-hidden="true"></i>
+                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành lưu trữ</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-right">
+                    <a href="">
+                        <img class="" src="dist/images/truyenthong.jpg" alt="">
+                    </a>
+                </div>
+                <div class="new-word software mt-3">
+                    <h3 class="title-content title-gray text-uppercase">Thông tin liên kết</h3>
+                    <div class="widget">
+                        <div class="banner-right">
+                            <a href="">
+                                <img class="w-100" src="dist/images/apphich-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right">
+                            <a href="">
+                                <img class="w-100" src="dist/images/apphich-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right">
+                            <a href="">
+                                <img class="w-100" src="dist/images/apphich-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right">
+                            <a href="">
+                                <img class="w-100" src="dist/images/apphich-4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right">
+                            <a href="">
+                                <img class="w-100" src="dist/images/apphich-5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="banner-right">
+                            <a href="">
+                                <img class="w-100" src="dist/images/apphich-6.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

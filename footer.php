@@ -67,6 +67,7 @@
 <script src="dist/js/stellarnav.min.js"></script>
 <script src="dist/WOW-master/dist/wow.min.js"></script>
 <script src="dist/box/jquery.fancybox.min.js"></script>
+<script src="https://cdn.plyr.io/3.6.2/plyr.polyfilled.js"></script>
 <script src="dist/js/custom.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
@@ -96,8 +97,14 @@
     });
 </script>
 
+
 <script src="https://code.jquery.com/jquery-migrate-3.0.1.js"></script>
 <script>
     new WOW().init();
+</script>
+
+<script src="path/to/plyr.js"></script>
+<script>
+    const player = new Plyr('#player');
 </script>
 </html>
