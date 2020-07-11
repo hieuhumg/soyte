@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="dist/slick-1.6.0/slick/slick.css">
     <link rel="stylesheet" href="dist/slick-1.6.0/slick/slick-theme.css">
     <link rel="stylesheet" href="dist/WOW-master/css/libs/animate.css">
+    <link rel="stylesheet" href="dist/box/jquery.fancybox.min.css">
 <!--    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">-->
     <link rel="stylesheet" href="dist/scss/main.css">
 </head>
@@ -74,26 +75,7 @@
         </div>
     </div>
 </div>
-<div class="hot_phone">
-    <div class="container">
-        <div class="d-flex justify-content-end align-items-center">
-            <div class="phone d-flex justify-content-end align-items-center">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <p>Đường dây nóng: <span>1900 9095</span></p>
 
-            </div>
-            <div class="search">
-                <div class="sample nine">
-                    <input type="text" name="search" placeholder="Tìm kiếm">
-                    <button type="submit" class="btn btn-search">
-                        <i class="fa fa-search"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
 <div class="form-search-mobile">
     <form action="" class="mobile">
         <div class="box-form">

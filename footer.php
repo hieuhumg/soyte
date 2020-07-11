@@ -66,6 +66,7 @@
 <script src="dist/js/cascadingDivs.js"></script>
 <script src="dist/js/stellarnav.min.js"></script>
 <script src="dist/WOW-master/dist/wow.min.js"></script>
+<script src="dist/box/jquery.fancybox.min.js"></script>
 <script src="dist/js/custom.js"></script>
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
