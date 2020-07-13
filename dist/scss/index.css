@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$size-18".
-        on line 11 of C:\xampp\htdocs\WG\so y te\dist\scss\index.scss
+        on line 11 of C:\xampp\htdocs\WG\soyte\soyte\dist\scss\index.scss
 
 6:         padding: 3px 20px;
 7:         border-radius: 10px;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$size-18".
 16:             font-size: $size-18;
 
 Backtrace:
-C:\xampp\htdocs\WG\so y te\dist\scss\index.scss:11
+C:\xampp\htdocs\WG\soyte\soyte\dist\scss\index.scss:11
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$size-18\".\A         on line 11 of C:\xampp\htdocs\WG\so y te\dist\scss\index.scss\A \A 6:         padding: 3px 20px;\A 7:         border-radius: 10px;\A 8: \A 9:         i {\A 10:             color: #f63232;\A 11:             font-size: $size-18;\A 12:             margin-right: 10px;\A 13:         }\A 14: \A 15:         p {\A 16:             font-size: $size-18;"; }
+  content: "Error: Undefined variable: \"$size-18\".\A         on line 11 of C:\xampp\htdocs\WG\soyte\soyte\dist\scss\index.scss\A \A 6:         padding: 3px 20px;\A 7:         border-radius: 10px;\A 8: \A 9:         i {\A 10:             color: #f63232;\A 11:             font-size: $size-18;\A 12:             margin-right: 10px;\A 13:         }\A 14: \A 15:         p {\A 16:             font-size: $size-18;"; }

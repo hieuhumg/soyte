@@ -22,7 +22,7 @@ include_once 'header.php';
                         <a class="hoverimg" href="#">
                             <img class="img-cover" src="dist/images/main-video.jpg" alt="">
                         </a>
-                        <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                        <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=zePBiBl3Qfk">
                             <img src="dist/images/play-video.png" alt="">
                         </a>
                     </div>
@@ -43,7 +43,7 @@ include_once 'header.php';
                         <a class="hoverimg" href="#">
                             <img class="w-100" src="dist/images/new-1.jpg" alt="">
                         </a>
-                        <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                        <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=zePBiBl3Qfk">
                             <img src="dist/images/play-video.png" alt="">
                         </a>
                     </div>
@@ -80,7 +80,7 @@ include_once 'header.php';
                                 <a class="hoverimg" href="#">
                                     <img class="w-100" src="dist/images/video-1.jpg" alt="">
                                 </a>
-                                <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                                <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=HkOOoGpHgIU">
                                     <img src="dist/images/play-video.png" alt="">
                                 </a>
                             </div>
@@ -102,7 +102,7 @@ include_once 'header.php';
                                 <a class="hoverimg" href="#">
                                     <img class="w-100" src="dist/images/video-2.jpg" alt="">
                                 </a>
-                                <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                                <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=6ElTw9dz1_4">
                                     <img src="dist/images/play-video.png" alt="">
                                 </a>
                             </div>
@@ -124,7 +124,7 @@ include_once 'header.php';
                                 <a class="hoverimg" href="#">
                                     <img class="w-100" src="dist/images/video-3.jpg" alt="">
                                 </a>
-                                <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                                <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=uDr2ahKqGMQ">
                                     <img src="dist/images/play-video.png" alt="">
                                 </a>
                             </div>
@@ -146,7 +146,7 @@ include_once 'header.php';
                                 <a class="hoverimg" href="#">
                                     <img class="w-100" src="dist/images/video-1.jpg" alt="">
                                 </a>
-                                <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                                <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=p_y0weorItM">
                                     <img src="dist/images/play-video.png" alt="">
                                 </a>
                             </div>
@@ -168,7 +168,7 @@ include_once 'header.php';
                                 <a class="hoverimg" href="#">
                                     <img class="w-100" src="dist/images/video-2.jpg" alt="">
                                 </a>
-                                <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                                <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=p_y0weorItM">
                                     <img src="dist/images/play-video.png" alt="">
                                 </a>
                             </div>
@@ -190,7 +190,7 @@ include_once 'header.php';
                                 <a class="hoverimg" href="#">
                                     <img class="w-100" src="dist/images/video-3.jpg" alt="">
                                 </a>
-                                <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                                <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=p_y0weorItM">
                                     <img src="dist/images/play-video.png" alt="">
                                 </a>
                             </div>

@@ -520,7 +520,7 @@ p.des {
           font-size: 28px; }
 
 .hot_phone {
-  margin-top: 13px; }
+  margin: 13px 0; }
   .hot_phone .phone {
     background: #fccc80;
     padding: 3px 20px;
@@ -645,7 +645,7 @@ p.des {
   100% {
     opacity: 1;
     transform: rotateZ(0deg) scale(1); } }
-.banner-ads {
+.banner-intro {
   margin: 15px 0; }
 
 .new .main-new {
@@ -759,6 +759,29 @@ p.des {
         font-family: Merriweather-Regular, sans-serif; }
       .latest-news ul li img {
         margin-left: 10px; }
+
+p.info {
+  font-size: 10px;
+  color: white;
+  background: #0096ce;
+  display: inline-block;
+  padding: 4px 7px;
+  margin-bottom: 5px; }
+
+.medical-info .medical-content {
+  padding: 0 20px; }
+  .medical-info .medical-content h3 {
+    padding: 0 !important; }
+.medical-info .medical-info_sub div {
+  margin: 10px 0; }
+.medical-info .medical-info_sub a {
+  font-size: 1rem;
+  color: #222222;
+  font-family: Arial, sans-serif; }
+.medical-info .medical-info_sub i {
+  margin-top: 4px;
+  margin-right: 10px;
+  width: 12px; }
 
 a.more {
   font-size: 0.87rem;
@@ -1734,5 +1757,35 @@ p.hot-video {
   display: inline-block;
   padding: 7px;
   background: #ed2126; }
+
+.intro {
+  padding-bottom: 40px; }
+  .intro .intro-element ul {
+    padding-left: 20px; }
+    .intro .intro-element ul li {
+      list-style: disc;
+      margin-bottom: 10px; }
+      .intro .intro-element ul li a {
+        font-size: 1.142rem;
+        color: #222222;
+        font-family: Merriweather-Bold, sans-serif; }
+
+.detail {
+  padding-bottom: 40px; }
+  .detail h2 {
+    font-family: Merriweather-Bold, sans-serif;
+    font-size: 2rem;
+    color: #222222;
+    padding-bottom: 20px; }
+  .detail p.nd {
+    font-size: 1.142rem;
+    color: #3b3b3b;
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+    text-align: justify; }
+  .detail p.nd img {
+    max-width: 100%;
+    margin: 10px 0;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

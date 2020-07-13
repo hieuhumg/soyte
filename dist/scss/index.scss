@@ -1,5 +1,5 @@
 .hot_phone {
-    margin-top: 13px;
+    margin: 13px 0;
 
     .phone {
         background: #fccc80;
@@ -187,7 +187,7 @@
     }
 }
 
-.banner-ads {
+.banner-intro {
     margin: 15px 0;
 }
 
@@ -388,6 +388,38 @@
         }
     }
 
+}
+p.info {
+    font-size: 10px;
+    color: $color-white;
+    background: #0096ce;
+    display: inline-block;
+    padding: 4px 7px;
+    margin-bottom: 5px;
+}
+.medical-info {
+    .medical-content {
+        padding: 0 20px;
+        h3 {
+            padding: 0 !important;
+        }
+    }
+    .medical-info_sub {
+        div {
+            margin: 10px 0;
+        }
+        a {
+            font-size: $size-14;
+            color: #222222;
+            font-family: Arial, sans-serif;
+
+        }
+        i {
+            margin-top: 4px;
+            margin-right: 10px;
+            width: 12px;
+        }
+    }
 }
 
 a.more {

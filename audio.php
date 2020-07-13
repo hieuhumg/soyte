@@ -62,7 +62,7 @@ include_once 'header.php';
                         <a class="hoverimg" href="#">
                             <img class="img-cover" src="dist/images/new-1.jpg" alt="">
                         </a>
-                        <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                        <a data-fancybox="video"  class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
                             <img src="dist/images/play-video.png" alt="">
                         </a>
                     </div>

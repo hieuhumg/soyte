@@ -23,7 +23,10 @@
 <div class="banner-home" style="background: url(dist/images/banner-home.png) no-repeat center; background-size: cover;">
     <div class="container">
         <div class="logo">
-            <img src="dist/images/logo.png" alt="">
+            <a href="index.php">
+                <img src="dist/images/logo.png" alt="">
+            </a>
+
             <div class="logo-title">
                 <h5 class="text-uppercase">Cổng thông tin điện tử</h5>
                 <h3 class="text-uppercase"> <span>Sở Y Tế thành phố Hà Nội</h3>
@@ -39,7 +42,7 @@
             <div class="stellarnav">
                 <ul>
                     </li>
-                    <li class=""><a href="">Trang chủ</a>
+                    <li class=""><a href="index.php">Trang chủ</a>
 <!--                        <ul>-->
 <!--                            <li><a href="intro.php">Giới thiệu</a>-->
 <!--                            </li>-->
@@ -63,20 +66,39 @@
 <!--                            </li>-->
 <!--                        </ul>-->
                     </li>
-                    <li class=""><a href="">giới thiệu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                    <li class=""><a href="intro.php">giới thiệu <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     </li>
                     <li><a href="">Chỉ đạo điều hành <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                     <li><a href="">Tin tức, sự kiện <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                     <li><a href="">Quản lý ngành nghề <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                     <li><a href="">Tuyển dụng</a></li>
-                    <li><a href="">Sản phẩm truyền thông <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="form-1.php">Sản phẩm truyền thông <i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
                     <li><a href="">Góp ý</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
+<div class="hot_phone">
+    <div class="container">
+        <div class="d-flex justify-content-end align-items-center">
+            <div class="phone d-flex justify-content-end align-items-center">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>Đường dây nóng: <span>1900 9095</span></p>
 
+            </div>
+            <div class="search">
+                <div class="sample nine">
+                    <input type="text" name="search" placeholder="Tìm kiếm">
+                    <button type="submit" class="btn btn-search">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
 <div class="form-search-mobile">
     <form action="" class="mobile">
         <div class="box-form">

@@ -1,28 +1,8 @@
 <?php
 include_once 'header.php';
 ?>
-<div class="hot_phone">
-    <div class="container">
-        <div class="d-flex justify-content-end align-items-center">
-            <div class="phone d-flex justify-content-end align-items-center">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <p>Đường dây nóng: <span>1900 9095</span></p>
 
-            </div>
-            <div class="search">
-                <div class="sample nine">
-                    <input type="text" name="search" placeholder="Tìm kiếm">
-                    <button type="submit" class="btn btn-search">
-                        <i class="fa fa-search"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<div class="banner-ads">
+<div class="banner-intro">
     <div class="container">
         <img class="w-100" src="dist/images/banner-ads.jpg" alt="">
     </div>
@@ -134,6 +114,7 @@ include_once 'header.php';
     <div class="container">
         <div class="row">
             <div class="col-md-8">
+                <!--                hoạt động ngành-->
                 <div class="row">
                     <div class="col-md-6">
                         <div class="latest-news clearfix">
@@ -213,6 +194,292 @@ include_once 'header.php';
                             <a href="" class="more float-right">
                                 xem tất cả
                             </a>
+                        </div>
+                    </div>
+                </div>
+                <!--                tin tức chung-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="latest-news">
+                            <h3 class="title-content">Tin tức chung</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="latest-news safe medical-info clearfix">
+                            <div class="top-new">
+                                <div class="title-img  d-flex ">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="medical-content">
+                                        <p class="info text-uppercase">Thông tin trên báo</p>
+                                        <a href="">
+                                            <h3>
+                                                Thông tin y tế trên các báo ngày 22/3/2020
+                                            </h3>
+                                        </a>
+                                        <div class="des">
+                                            <p>Cùng điểm qua những thông tin Y tế...
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--                            thông tin y tế-->
+                            <div class="medical-info_sub">
+                                <div class="d-flex"><i class="fa fa-newspaper-o" aria-hidden="true"></i><a href="">Thông
+                                        tin y tế trên các báo ngày 21/3/2020</a></div>
+                                <div class="d-flex"><i class="fa fa-newspaper-o" aria-hidden="true"></i><a href="">Thông
+                                        tin y tế trên các báo ngày 21/3/2020</a></div>
+                                <div class="d-flex"><i class="fa fa-newspaper-o" aria-hidden="true"></i><a href="">Thông
+                                        tin y tế trên các báo ngày 21/3/2020</a></div>
+                                <div class="d-flex"><i class="fa fa-newspaper-o" aria-hidden="true"></i><a href="">Thông
+                                        tin y tế trên các báo ngày 21/3/2020</a></div>
+                                <div class="d-flex"><i class="fa fa-newspaper-o" aria-hidden="true"></i><a href="">Thông
+                                        tin y tế trên các báo ngày 21/3/2020</a></div>
+                                <div class="d-flex"><i class="fa fa-newspaper-o" aria-hidden="true"></i><a href="">Thông
+                                        tin y tế trên các báo ngày 21/3/2020</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="latest-news family clearfix">
+                            <div class="top-new">
+                                <div class="title-img  d-flex ">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Lợi ích của sàng lọc sơ sinh
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Việt Nam nằm trong danh sách 3 nước đứng đầu khu vực về vị thế của trẻ em
+                                            gái năm 2020
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-4.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Đề cao vị thế của phụ nữ trên mọi lĩnh vực
+                                        </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="">
+                            <a href="">
+                                <img class="w-100" src="dist/images/hanhnghey.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--                khám chữa bệnh phổ biến kiến thức-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="latest-news mt-3">
+                            <h3 class="title-content">khám chữa bệnh phổ biến kiến thức</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="latest-news family clearfix">
+                            <div class="top-new">
+                                <div class="title-img  d-flex ">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Lợi ích của sàng lọc sơ sinh
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Việt Nam nằm trong danh sách 3 nước đứng đầu khu vực về vị thế của trẻ em
+                                            gái năm 2020
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-4.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Đề cao vị thế của phụ nữ trên mọi lĩnh vực
+                                        </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="latest-news family clearfix">
+                            <div class="top-new">
+                                <div class="title-img  d-flex ">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Lợi ích của sàng lọc sơ sinh
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Việt Nam nằm trong danh sách 3 nước đứng đầu khu vực về vị thế của trẻ em
+                                            gái năm 2020
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-4.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Đề cao vị thế của phụ nữ trên mọi lĩnh vực
+                                        </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--                phòng chống dịch bệnh, bệnh không lây-->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="latest-news family clearfix">
+                            <h3 class="title-content">phòng chống dịch bệnh</h3>
+                            <div class="top-new">
+                                <div class="title-img  d-flex ">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Lợi ích của sàng lọc sơ sinh
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Việt Nam nằm trong danh sách 3 nước đứng đầu khu vực về vị thế của trẻ em
+                                            gái năm 2020
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-4.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Đề cao vị thế của phụ nữ trên mọi lĩnh vực
+                                        </h3>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="latest-news family clearfix">
+                            <h3 class="title-content bg-blue">bệnh không lây</h3>
+                            <div class="top-new">
+                                <div class="title-img  d-flex ">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-1.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Lợi ích của sàng lọc sơ sinh
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-2.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Việt Nam nằm trong danh sách 3 nước đứng đầu khu vực về vị thế của trẻ em
+                                            gái năm 2020
+                                        </h3>
+                                    </a>
+                                </div>
+                                <div class="title-img  d-flex">
+                                    <div class="image">
+                                        <a href="">
+                                            <img class="img-cover" src="dist/images/family-4.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <a href="">
+                                        <h3>
+                                            Đề cao vị thế của phụ nữ trên mọi lĩnh vực
+                                        </h3>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -476,7 +743,8 @@ include_once 'header.php';
                         <a class="hoverimg" href="#">
                             <img class="img-cover" src="dist/images/new-1.jpg" alt="">
                         </a>
-                        <a data-fancybox="video" data-caption="Giới thiệu nhà ga" class="play" href="https://www.youtube.com/watch?v=sdEU-t3uEM4&amp;list=RDMMsdEU-t3uEM4&amp;start_radio=1">
+                        <a data-fancybox="video" class="play"
+                           href="https://www.youtube.com/watch?v=hS6OT3Kq6ig&feature=emb_title">
                             <img src="dist/images/play-video.png" alt="">
                         </a>
                     </div>
@@ -512,19 +780,23 @@ include_once 'header.php';
                     <div class="widget">
                         <div class="item d-flex">
                             <i class="fa fa-file-text" aria-hidden="true"></i>
-                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành lưu trữ</a>
+                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên
+                                ngành lưu trữ</a>
                         </div>
                         <div class="item d-flex">
                             <i class="fa fa-file-text" aria-hidden="true"></i>
-                            <a href="">Thông tư quy định chức danh, mã số ngạch và tiêu chuẩn nghiệp vụ chuyên môn các ngạch công chức chuyên ngành văn thư</a>
+                            <a href="">Thông tư quy định chức danh, mã số ngạch và tiêu chuẩn nghiệp vụ chuyên môn các
+                                ngạch công chức chuyên ngành văn thư</a>
                         </div>
                         <div class="item d-flex">
                             <i class="fa fa-file-text" aria-hidden="true"></i>
-                            <a href="">Thông tư quy định chức danh, mã số ngạch, chức trách, nhiệm vụ và tiêu chuẩn nghiệp vụ chuyên môn các ngạch công chức chuyên ngành hành chính</a>
+                            <a href="">Thông tư quy định chức danh, mã số ngạch, chức trách, nhiệm vụ và tiêu chuẩn
+                                nghiệp vụ chuyên môn các ngạch công chức chuyên ngành hành chính</a>
                         </div>
                         <div class="item d-flex">
                             <i class="fa fa-file-text" aria-hidden="true"></i>
-                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành lưu trữ</a>
+                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên
+                                ngành lưu trữ</a>
                         </div>
                     </div>
                     <a href="" class="more">
@@ -536,19 +808,23 @@ include_once 'header.php';
                     <div class="widget">
                         <div class="item d-flex">
                             <i class="fa fa-file-text" aria-hidden="true"></i>
-                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành lưu trữ</a>
+                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên
+                                ngành lưu trữ</a>
                         </div>
                         <div class="item d-flex">
                             <i class="fa fa-file-text" aria-hidden="true"></i>
-                            <a href="">Thông tư quy định chức danh, mã số ngạch và tiêu chuẩn nghiệp vụ chuyên môn các ngạch công chức chuyên ngành văn thư</a>
+                            <a href="">Thông tư quy định chức danh, mã số ngạch và tiêu chuẩn nghiệp vụ chuyên môn các
+                                ngạch công chức chuyên ngành văn thư</a>
                         </div>
                         <div class="item d-flex">
                             <i class="fa fa-file-text" aria-hidden="true"></i>
-                            <a href="">Thông tư quy định chức danh, mã số ngạch, chức trách, nhiệm vụ và tiêu chuẩn nghiệp vụ chuyên môn các ngạch công chức chuyên ngành hành chính</a>
+                            <a href="">Thông tư quy định chức danh, mã số ngạch, chức trách, nhiệm vụ và tiêu chuẩn
+                                nghiệp vụ chuyên môn các ngạch công chức chuyên ngành hành chính</a>
                         </div>
                         <div class="item d-flex">
                             <i class="fa fa-file-text" aria-hidden="true"></i>
-                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên ngành lưu trữ</a>
+                            <a href="">Thông tư quy định mã số và tiêu chuẩn chức danh nghề nghiệp viên chức chuyên
+                                ngành lưu trữ</a>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$size-13".
-        on line 800 of C:\xampp\htdocs\WG\so y te\dist\scss\menu.scss
+        on line 800 of C:\xampp\htdocs\WG\soyte\soyte\dist\scss\menu.scss
 
 795:                 width: 100%;
 796:                 background: #eff5f9;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$size-13".
 805:                     width: 100%;
 
 Backtrace:
-C:\xampp\htdocs\WG\so y te\dist\scss\menu.scss:800
+C:\xampp\htdocs\WG\soyte\soyte\dist\scss\menu.scss:800
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -117,4 +117,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$size-13\".\A         on line 800 of C:\xampp\htdocs\WG\so y te\dist\scss\menu.scss\A \A 795:                 width: 100%;\A 796:                 background: #eff5f9;\A 797:                 li.data-year {\A 798:                     float: left;\A 799:                     >a {\A 800:                         font-size: $size-13;\A 801:                     }\A 802:                 }\A 803:                 .sub-tinh {\A 804:                     float: left;\A 805:                     width: 100%;"; }
+  content: "Error: Undefined variable: \"$size-13\".\A         on line 800 of C:\xampp\htdocs\WG\soyte\soyte\dist\scss\menu.scss\A \A 795:                 width: 100%;\A 796:                 background: #eff5f9;\A 797:                 li.data-year {\A 798:                     float: left;\A 799:                     >a {\A 800:                         font-size: $size-13;\A 801:                     }\A 802:                 }\A 803:                 .sub-tinh {\A 804:                     float: left;\A 805:                     width: 100%;"; }

@@ -1,0 +1,17 @@
+.intro {
+    padding-bottom: 40px;
+    .intro-element {
+        ul {
+            padding-left: 20px;
+            li {
+                list-style: disc;
+                margin-bottom: 10px;
+                a {
+                    font-size: $size-16;
+                    color: #222222;
+                    font-family: Merriweather-Bold, sans-serif;
+                }
+            }
+        }
+    }
+}

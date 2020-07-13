@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$size-13".
-        on line 6 of C:\xampp\htdocs\WG\so y te\dist\scss\footer.scss
+        on line 6 of C:\xampp\htdocs\WG\soyte\soyte\dist\scss\footer.scss
 
 1: .footer {
 2:     .menu-footer {
@@ -15,7 +15,7 @@ Error: Undefined variable: "$size-13".
 11:                 font-size: 8px;
 
 Backtrace:
-C:\xampp\htdocs\WG\so y te\dist\scss\footer.scss:6
+C:\xampp\htdocs\WG\soyte\soyte\dist\scss\footer.scss:6
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$size-13\".\A         on line 6 of C:\xampp\htdocs\WG\so y te\dist\scss\footer.scss\A \A 1: .footer {\A 2:     .menu-footer {\A 3:         background: #c1dae3c7;\A 4:         padding: 20px 0;\A 5:         a {\A 6:             font-size: $size-13;\A 7:             color: #464646;\A 8:             text-transform: uppercase;\A 9:             margin-right: 20px;\A 10:             @media screen and (max-width: $break-mobile) {\A 11:                 font-size: 8px;"; }
+  content: "Error: Undefined variable: \"$size-13\".\A         on line 6 of C:\xampp\htdocs\WG\soyte\soyte\dist\scss\footer.scss\A \A 1: .footer {\A 2:     .menu-footer {\A 3:         background: #c1dae3c7;\A 4:         padding: 20px 0;\A 5:         a {\A 6:             font-size: $size-13;\A 7:             color: #464646;\A 8:             text-transform: uppercase;\A 9:             margin-right: 20px;\A 10:             @media screen and (max-width: $break-mobile) {\A 11:                 font-size: 8px;"; }

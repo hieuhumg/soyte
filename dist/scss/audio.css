@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$size-24".
-        on line 6 of C:\xampp\htdocs\WG\so y te\dist\scss\audio.scss
+        on line 6 of C:\xampp\htdocs\WG\soyte\soyte\dist\scss\audio.scss
 
 1: .audio {
 2:     background: #fcfaf6;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$size-24".
 11:         }
 
 Backtrace:
-C:\xampp\htdocs\WG\so y te\dist\scss\audio.scss:6
+C:\xampp\htdocs\WG\soyte\soyte\dist\scss\audio.scss:6
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -84,4 +84,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$size-24\".\A         on line 6 of C:\xampp\htdocs\WG\so y te\dist\scss\audio.scss\A \A 1: .audio {\A 2:     background: #fcfaf6;\A 3: \A 4:     .main-audio {\A 5:         h3 {\A 6:             font-size: $size-24;\A 7:             color: #121212;\A 8:             font-family: Merriweather-Bold, sans-serif;\A 9:             padding-top: 10px;\A 10:             padding-bottom: 20px;\A 11:         }"; }
+  content: "Error: Undefined variable: \"$size-24\".\A         on line 6 of C:\xampp\htdocs\WG\soyte\soyte\dist\scss\audio.scss\A \A 1: .audio {\A 2:     background: #fcfaf6;\A 3: \A 4:     .main-audio {\A 5:         h3 {\A 6:             font-size: $size-24;\A 7:             color: #121212;\A 8:             font-family: Merriweather-Bold, sans-serif;\A 9:             padding-top: 10px;\A 10:             padding-bottom: 20px;\A 11:         }"; }

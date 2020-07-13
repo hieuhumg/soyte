@@ -1,0 +1,23 @@
+.detail {
+    padding-bottom: 40px;
+    h2 {
+        font-family: Merriweather-Bold, sans-serif;
+        font-size: $size-28;
+        color: #222222;
+        padding-bottom: 20px;
+    }
+    p.nd {
+        font-size: $size-16;
+        color: #3b3b3b;
+        font-family: Arial, sans-serif;
+        margin: 10px 0;
+        text-align: justify;
+    }
+    p.nd {
+        img {
+            max-width: 100%;
+            margin: 10px 0;
+            text-align: center;
+        }
+    }
+}
